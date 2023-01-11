@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon " type="image" href="../img/logo.png"> 
+    <link rel="stylesheet" href="home-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Syne+Tactile&display=swap" rel="stylesheet">
+    <title>BMSET Hostels</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <div class="brand">
+            <span id="bmsce">BMSCE</span>
+            <span id="hostels">HOSTELS</span>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+
+                <li><a href="home.html" title="Home">Home</a></li>
+                <li><a href="../mess/mess_html.html" title="Mess">Mess</a></li>
+                <li><a href="../For page/forboys.html" title="Boys hostel">Boys Hostel</a></li>
+                <li><a href="../For page/forgirls.html" title="Girls hostel">Girls Hostel</a></li>
+                <li><a href="../internationalHostel/interhostel.html" title="Internation hostel">International</a></li>
+                <button id="sign-in" type="button"  title="Sign in">Sign In</button>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--CAROUSEL-->
+    <div class="carousel">
+        <div class="slide">
+            <img src="../img/college_campus1.jpg" alt="pic1">
+            <div class="caption">
+                <h3>BMSET campus</h3>
+                <p>spread over 22 acres the campus provides all sorts of facilities for the overall development of students</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="../img/hostel1.jpeg" alt="pic1">
+            <div class="caption">
+                <h3>Hostel room</h3>
+                 Spacious and well furnished rooms ensure the students have a comfortable stay!
+            </div>
+        </div>
+        <div class="slide">
+            <img src="../img/hostel2.jpeg" alt="pic1">
+            <div class="caption">
+                <h3>
+                    Hostel campus
+                </h3>
+                Just a small part fo the hostel campus... a kind of teaser to what the whole campus looks like :)
+            </div>
+        </div>
+      
+
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </div>
+
+    <!--CONTENT DIVS-->
+
+    <!--ABOUT US-->
+    <div class="about-us">
+        <div class="about-us-title">About Us</div> <br>
+        <hr>
+
+
+        <div class="about-us-content">
+                The BMS Educational Trust is a well established institution that has founded and currently  manages the BMS College of Engineering,
+                BMS College of Law , BMS College of Architecture and the BMS Hostels. The BMSETH hostels are a group of hostels situated next to 
+                the Basavanagudi campus sharing an entrance with BMSCE. There are seven hostels for boys and three for girls among the National Hostels.
+                There is also an International hostel along woth several messes. There is also a provision for games, both indoor and outdoor, for the 
+                hostelites! <br>
+                <hr>
+                <br>
+                The BMSET hostels have a lot to offer to the students... browse the website for more!
+        </div>
+
+
+    </div>
+
+    <!--CONTACT US-->
+    <div class="contact-us">
+        <div class="contact-us-title">Contact Us</div>
+        <div class="contact-details">
+            <ul>
+                <li>Ph: 080-2662 2130</li>
+                <li>Email: www.bmsce.ac.in</li>
+                <li>Fax: +91-80-26614357</li>
+                <li><a
+                     href="https://www.google.com/maps/place/BMS+College+of+Engineering/@12.9410122,77.5633371,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae158b11e34d2f:0x5f4adbdbab8bd80f!8m2!3d12.9410122!4d77.5655258"
+                     title="Click to open in google maps" id="address" target="_blank">
+                    P.O. Box No.: 1908 Bull Temple Road,<br>
+                    Bangalore - 560 019 Karnataka, India</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="homepage.js"></script>
+</body>
+
+</html>
